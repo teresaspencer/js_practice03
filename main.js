@@ -13,7 +13,7 @@ given in the comments.
 const question1 = (myNumber) => {
   let myDept;
   /////// write your IF statement below this line /////////
-
+  if (myNumber > 1) myDept = "Informatics";
   /////// write your IF statement above this line /////////
   return myDept;
 };
@@ -27,7 +27,8 @@ const question1 = (myNumber) => {
 const question2 = (myValue) => {
   let myLang;
   /////// write your IF statement below this line /////////
-
+  if (myValue.length == 10) { myLang = "JavaScript"; }
+  else myLang = "Python";
   /////// write your IF statement above this line /////////
   return myLang;
 };
@@ -41,7 +42,9 @@ const question2 = (myValue) => {
 const question3 = (myValue) => {
   let myLang;
   /////// write your IF statement below this line /////////
-
+  if (myValue.length == 10) { myLang = "JavaScript"; }
+  else if (myValue.length > 3) { myLang = "PHP"; }
+  else myLang = "Python";
   /////// write your IF statement above this line /////////
   return myLang;
 };
